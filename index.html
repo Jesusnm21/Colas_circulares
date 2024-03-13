@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cola Circular</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+   <div class="titulo">
+    <p>
+        
+        <span>
+            Colas Circulares
+        </span>
+      
+    </p>
+   </div>
+    <div class="centro">
+    <h2>Demostración</h2>
+
+<div id="queue-container"></div>
+
+<b href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <button id="enqueue-btn" onclick="enqueue()">Encolar</button>
+
+  </b>
+  <b href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+<button id="dequeue-btn" onclick="dequeue()">Desencolar</button>
+  </b>
+
+</div>
+<div class="ejemplo">
+    <h4>hola</h4>
+</div>
+<div class="definicion">
+    <h2>Descripción</h2>
+    <h3>Una cola circular es una estructura de datos donde los elementos se
+        almacenan en una matriz y se accede a ella mediante dos punteros, frontal y
+        trasero,los elementos, se insertan en la posición  trasera y se eliminan
+        desde la posición frontal.
+        Esta estructura permite una inserción y eliminación eficiente
+         evitando el desperdicio de memoria.</h3>
+
+</div>
+<script src="colas.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css?family=Neuton|Oswald");
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(pexels-eberhard-grossgasteiger-1421903.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .titulo{
+    
+    
+    padding:50px;
+    border-radius: 10px;
+    
+   margin-top: -200px;
+    
+  }
+  p{
+    
+    width: 40em;
+    text-align: center;
+    text-transform: uppercase;
+    font:400 1em/1.5 "Neuton";
+    color:#ffffff40;
+    display: inline-block;
+    border: 4px double #ffffff40;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+  }
+  p span{
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing:0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin:0 auto;
+    
+    text-shadow: 0 0 80px rgba(255,255,255, 0.5);
+    background:
+    url("https://codetheworld.io/wp-content/uploads/2023/11/rNPwjWM-animated-text-fill.png")repeat-y;
+    -webkit-background-clip:  text;
+    -webkit-text-fill-color: transparent;
+    animation:anim 80s linear infinite
+
+  }
+  @-webkit-keyframes anim{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+  }
+  .definicion{
+    backdrop-filter:blur(25px);
+    /*tmaño de ancho*/
+    width:500px;
+    /*tamaño de alto*/
+    height: 600px;
+    /*color de fondo*/
+    padding:20px;
+    border: 1px solid black;
+    border:none;
+   margin-left: 1650px;
+   margin-top: -550px;
+    border: 5px solid #B2DFDB;
+    /*redondear esquinas*/
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px solid black;
+    
+    /*sombra al formulario*/
+    box-shadow: 0px 0px 40px #fffb01;
+  }
+
+
+  .ejemplo{
+    backdrop-filter:blur(25px);
+    /*tmaño de ancho*/
+    width:800px;
+    /*tamaño de alto*/
+    height: 450px;
+    /*color de fondo*/
+    padding:20px;
+    border: 1px solid black;
+    border:none;
+    background-image: url(cola\ circular\ ‑\ Made\ with\ FlexClip.gif);
+   margin-left: 560;
+margin-top: -600px;
+    margin-left: 0px;
+    border: 5px solid #B2DFDB;
+    /*redondear esquinas*/
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px solid black;
+    
+    /*sombra al formulario*/
+    box-shadow: 0px 0px 40px #fffb01;
+    
+  }
+  .centro{
+    backdrop-filter:blur(25px);
+    /*tmaño de ancho*/
+    width:500px;
+    /*tamaño de alto*/
+    height: 600px;
+    /*color de fondo*/
+    padding:20px;
+    border: 1px solid black;
+    border:none;
+   margin-left: -1600px;
+    margin-top: 50px;
+    border: 5px solid #B2DFDB;
+    /*redondear esquinas*/
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px solid black;
+    
+    /*sombra al formulario*/
+    box-shadow: 0px 0px 40px #fffb01;
+    
+  }
+  h2 {
+    font-size: 60px;
+    text-align: center;
+    color:#fff;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  h3{
+    color:white;
+    font-size: 30px;
+  }
+  
+  #queue-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin:auto
+    
+  }
+  
+  .queue-item {
+    width: 70px;
+    height: 60px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:antiquewhite;
+   margin:auto;
+    transition: background-color 0.3s ease, opacity 0.5s ease;
+    font-size: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    
+    
+  }
+  
+  #enqueue-btn, #dequeue-btn {
+    width:500px;
+  padding:5px;
+  margin-bottom: 15px;
+  background-color:transparent;
+  border:3px transparent;
+  border-radius: 10px;
+  color:aliceblue;
+  font-style:inherit;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  #enqueue-btn:hover, #dequeue-btn:hover {
+    background-color:transparent;
+    color:rgb(247, 247, 243);
+    cursor: pointer;
+    padding:7px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    
+  }
+  .centro  b {
+    position: relative;
+    display: inline-block;
+    
+    color: #b79726;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 10px;
+    letter-spacing: 4px
+  }
+  
+  .centro b:hover {
+    background: #f49803;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #f4c803,
+                0 0 25px #bd9d0b,
+                0 0 50px #f4e403,
+                0 0 100px #d5cf1e;
+  }
+  
+  .centro b span {
+    position: absolute;
+    display: block;
+  }
+  
+  .centro b span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #f4c003);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .centro b span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #f4bc03);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .centro b span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #f4dc03);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .centro b span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #f4b003);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
